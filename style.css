@@ -1,0 +1,317 @@
+/* #111 - Border backgroun color*/
+/* #303030- What is netflix color */
+/* Red #E50914 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+.container{
+    background-color: black;
+    color: white;
+}
+
+/* Navigation */
+.navigation{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation .logo{
+    padding-left: 40px;
+}
+.navigation .logo img{
+    width: 150px;
+    height: 60px;
+}
+.navigation .btn{
+    padding-right: 40px;
+}
+.navigation .btn button{
+    border: none;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    font-weight: 1000px;
+    font-size: 20px;
+    color: #E50914;
+    background-color: white;
+}
+/* End of Navigation */
+
+/* Home */
+.home{
+    background-image: url(./images/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    width: 100%;
+    height: 90vh;
+}
+.home .topic{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    z-index: 3;
+}
+.home .topic h1{
+    font-size:45px;
+}
+.home .topic h2{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.home .topic h3{
+    margin-top: 30px;
+}
+.home .form{
+    margin-top: 30px;
+}
+.home .form input{
+    width: 350px;
+    height: 35px;    
+}
+.home .form button{
+    width: 200px;
+    height: 38px;
+    background-color: #E50914;
+    border: none;
+    transition: all 0.4s;
+}
+.home .form button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.home .form button:hover{
+    cursor: pointer;
+    box-shadow: 0px 20px 15px black;
+}
+/* End Of Home */
+
+/* Section 1 */
+
+section-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+section-1 .sec-1 img{
+    width: 550px;
+}
+section-1 .sec-2 h1{
+    font-size: 35px;
+}
+section-1 .sec-2 p{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+/* Border */
+.border-1{
+    position: relative;
+    width: 100%;
+    height: 9px;
+    background-color: #303030;
+    opacity: 0.8;
+}
+
+/* Section 2 */
+
+section-2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+section-2 .data-2 img{
+    width: 550px;
+}
+section-2 .data-1 h1{
+    font-size: 35px;
+}
+section-2 .data-1 p{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+/* End Of Section 2 */
+
+/* Border 2 */
+
+.border-2{
+    position: relative;
+    width: 100%;
+    height: 9px;
+    background-color: #303030;
+    opacity: 0.8;
+}
+
+/* Section 3 */
+section-3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+section-3 .box-1 img{
+    width: 550px;
+}
+section-3 .box-2 h1{
+    font-size: 35px;
+}
+section-3 .box-2 p{
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+/* Border 3 */
+.border-3{
+    position: relative;
+    width: 100%;
+    height: 9px;
+    background-color: #303030;
+    opacity: 0.8;
+}
+
+/* Section 4 */
+
+section-4{
+    width: 100%;
+}
+section-4 h1{
+    text-align: center;
+}
+section-4 .part{
+    text-align: center;
+    padding-top: 30px;
+}
+section-4 .part .parts{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 50px;
+    background-color: #303030;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;
+}
+section-4 .part .parts .add{
+    padding-right: 10px;
+}
+section-4 .part .parts .add img{
+    width: 20px;
+}
+section-4 .part .parts .head{
+    padding-left: 10px;
+}
+
+/* Section 5 */
+section-5 .sec-5{
+    width: 100%;
+    height: 50vh;
+    text-align: center
+}
+section-5 h3{
+    font-size: 30px;
+    margin-top: 50px;
+}
+section-5 .form{
+    margin-top: 50px;
+}
+section-5 .form input{
+    width: 350px;
+    height: 35px;    
+}
+section-5  .form button{
+    width: 200px;
+    height: 38px;
+    background-color: #E50914;
+    border: none;
+    transition: all 0.4s;
+}
+section-5  .form button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+section-5  .form button:hover{
+    cursor: pointer;
+    box-shadow: 0px 20px 15px black;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 660px) {
+    .home .topic{
+        padding: 20px;
+    }
+    .home .form button{
+        margin-top: 20px;
+    }
+    section-1{
+        padding: 20px;
+        text-align: center;
+    }
+    section-2{
+        padding: 20px;
+        text-align: center;
+    }
+    section-2 .data-2 img{
+        margin: auto;
+        height: 370px;
+    }
+    .border-1{
+        margin-top: 40px;
+    }
+    section-3{
+        padding: 20px;
+        text-align: center;
+    }
+    section-4{
+        padding: 20px;
+        text-align: center;
+    }
+    section-5{
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 560px){
+    section-3 .box-1 img{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 511px) {
+    section-2 .data-2{
+        position: relative;
+        right: 50px;
+    }
+}
+@media screen and (max-width: 380px) {
+    section-1 .sec-1 img{
+        width: 300px;
+    }
+    section-2 .data-2 img{
+        width: 400px;
+    }
+    section-3 .box-1{
+        width: 300px;
+        margin-right: 50px;
+    }
+}
